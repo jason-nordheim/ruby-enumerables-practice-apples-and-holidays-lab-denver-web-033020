@@ -71,7 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |k1,v1|
     holidays << v1
   end
-  holidays.to_a.select {|x| x[1].any? { |y| y == "BBQ"}}
+  holidays.to_a.select {|x| x[0].any? { |y| y == "BBQ"}}
 end
 
 

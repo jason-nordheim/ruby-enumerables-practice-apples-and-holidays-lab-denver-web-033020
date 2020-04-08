@@ -71,7 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |k1,v1|
     # k2 = holiday
     v1.each do|k2, v2|
-      result << k2 if v2.any? {|x| x == "BBQ"
+      result << k2 if v2.any? {|x| x == "BBQ"} 
     end
   end
   result

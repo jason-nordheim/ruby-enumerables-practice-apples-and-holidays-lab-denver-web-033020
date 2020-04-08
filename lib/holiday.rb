@@ -73,11 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
   end
   output = []
   holidays.select do |key, value|
-    i = 0
-    value.size  do
-      output << key if value[i] == "BBQ"
-      i += 1
-    end
+    ouput << value 
   end
   output
 end

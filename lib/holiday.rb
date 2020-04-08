@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
   # level_2 = holiday
   nested_array.each { |level_1|
     level_1.each { |level_2|
-      level_2.each { |level_3|
+      level_2[1].each { |level_3|
         output << level_2[0]
         if level_3 == "BBQ"
 

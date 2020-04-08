@@ -70,6 +70,6 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-def titlecase string 
+def titlecase string
 
-end 
+end

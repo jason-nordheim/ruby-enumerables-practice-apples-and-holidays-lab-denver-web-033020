@@ -68,7 +68,6 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   keys = holiday_hash.keys
   keys.select { |key, value| value.any?("BBQ")  }
-
 end
 
 

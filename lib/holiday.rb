@@ -70,6 +70,8 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-def titlecase string
-
+def titlecase str
+  ary = str.split(" ")
+  ary.each {|x| x.capitalize}
+  ary.join(" ")
 end

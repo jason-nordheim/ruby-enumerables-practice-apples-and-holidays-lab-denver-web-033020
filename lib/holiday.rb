@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
   end
   output = []
   holidays.select do |key, value|
-    output << value 
+    output << key 
   end
   output
 end

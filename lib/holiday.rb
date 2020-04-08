@@ -68,6 +68,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   result == []
   holiday_hash.each {|k1,v1| value.each {|k2, v2| result << k2 if v2.any? {|x| x == "BBQ"}}}
+  result
 end
 
 

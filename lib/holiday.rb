@@ -71,11 +71,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |k1,v1|
     holidays << v1
   end
-  output = []
-  holidays.select do |key, value|
-    output << key 
-  end
-  output
+  holidays.map do | key, value| 
+    
+  end 
 end
 
 

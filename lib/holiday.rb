@@ -71,6 +71,5 @@ end
 
 
 def titlecase str
-  ary = str.split(" ")
-  ary.map {|x| x.capitalize}.join(" ") 
+  str.split(" ").map {|x| x.capitalize}.join(" ") 
 end

@@ -72,7 +72,10 @@ def all_holidays_with_bbq(holiday_hash)
     holidays << v1
   end
   nested_array = holidays.to_a.map {|x| x.to_a }
-  nested_array[0][0]
+  output = []
+  # level_1 = season
+  # level_2 = holiday
+  nested_array.each {|level_1| level_1.each { |level_2| output << level_2}}
 end
 
 

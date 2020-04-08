@@ -69,7 +69,7 @@ def all_holidays_with_bbq(holiday_hash)
   holidays = []
   # k1 = season
   holiday_hash.each do |k1,v1|
-    result << v1
+    holiday << v1
   end
   result
 end

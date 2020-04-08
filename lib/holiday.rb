@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
       level_2.each { |level_3|
         output << level_2[0]
         if level_3 == "BBQ"
-              
+
         end
         }
       }
